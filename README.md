@@ -10,6 +10,10 @@ Registration form performs simple validation on form fields:
 
 #### Project 2. Simple video player
 Simple video player with custom controls
- 
+
+#### Project 3. Exchange rates
+Exchange rates API implementation. Calculate currency values. In order to work correctly, 
+You need to get API key from [exchangerate-api.com](https://www.exchangerate-api.com)
+
 
 html | scss | javascript 
