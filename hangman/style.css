@@ -19,6 +19,10 @@ h1 {
     padding: 20px;
 }
 
+h2 {
+    padding: 16px;
+}
+
 .figure-container {
     fill: transparent;
     stroke: #f5f5f5;
@@ -73,4 +77,54 @@ h1 {
     margin: 0 5px;
     width: 20px;
     height: 50px;
+}
+
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /*display: flex;*/
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0 ,0 , 0.4);
+}
+
+.popup {
+    background: #2e70a5;
+    border-radius: 5px;
+    padding: 12px;
+    text-align: center;
+}
+
+.popup-btn {
+    cursor: pointer;
+    margin-top: 12px;
+    padding: 8px;
+    border: 0;
+    border-radius: 5px;
+    color: #2e70a5;
+}
+
+.popup-btn:active {
+    transform: scale(0.98);
+}
+
+.popup-btn:focus {
+    outline: 0;
+}
+
+.info-container {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+    position: absolute;
+    bottom: -50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.info-container.show {
+    transform: translateY(-50px);
 }
