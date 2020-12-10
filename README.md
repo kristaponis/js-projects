@@ -15,5 +15,9 @@ Simple video player with custom controls
 Exchange rates API implementation. Calculate currency values. In order to work correctly, 
 You need to get API key from [exchangerate-api.com](https://www.exchangerate-api.com)
 
+#### Project 4. Hangman
+Guess a word and win or be hanged. Uses svg elements to draw a Hangman. Simple JavaScript adds functionality to the game.
+
+
 
 html | scss | javascript 
